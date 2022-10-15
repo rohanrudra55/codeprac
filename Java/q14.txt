@@ -1,0 +1,4 @@
+import java.util.*;
+class q14{
+ public static void q14(int n){
+System.out.println(n);

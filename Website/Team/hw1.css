@@ -1,0 +1,89 @@
+body{
+    margin:0%;
+    padding:0%;
+}
+header{
+    height: 150px;
+    max-height: 150px;
+    padding: 0px;
+    text-align: center;
+    background-image: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+}
+h1{
+    color: aliceblue;
+}
+.active{
+    background-color: white;
+}
+nav{
+    display: inline-block;
+}
+nav a{
+    margin-left: 80px;
+    margin-right: 80px;
+    float:left;
+    width: 100px;
+    text-decoration: none;
+    color:black;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.452);
+
+}
+nav a:hover{
+    background-color: white;
+}
+nav a:active{
+    background-color: white;
+}
+main aside{
+    float:left;
+    background-color: olivedrab;
+    padding: 4px;
+    width: 200px;
+    height: 100vh;
+
+}
+.left img{
+    
+    float:left;
+    margin: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    width: 90%;
+    height: 25%;
+}
+.right{
+    display: inline-table;
+    margin-left: 10px;
+    float:left;
+    width:84%;
+    font-size:large;
+}
+table{ 
+    margin: 0 auto;
+    color:white;
+    box-sizing: border-box;
+}
+th{
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    opacity: 0.7;
+    background-image:linear-gradient( rgba(121, 180, 10, 0.733),olivedrab);
+}
+th:hover{
+    opacity: 1;
+
+}
+
+td{
+    text-align: center;
+    padding-right: 1%;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(128, 204, 5, 0.473);
+
+}
+td:first-child{
+    text-align: left;
+}
